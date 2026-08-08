@@ -47,7 +47,7 @@ python generate.py
 
 ## Course
 
-This project was built by completing
+This project was built by completing https://neetcode.io ML course
 - Math Foundations (gradient descent, activations, loss functions)
 - Neural Networks from scratch (neuron, backprop, MLP)
 - PyTorch fundamentals

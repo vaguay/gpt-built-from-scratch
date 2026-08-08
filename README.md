@@ -1,4 +1,4 @@
-# My GPT — Built from Scratch
+# My GPT built from scratch
 
 > Built by **Vanesa Aguay Guerra** 
 

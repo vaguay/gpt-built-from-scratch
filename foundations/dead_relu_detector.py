@@ -56,9 +56,8 @@ class Solution:
         if inc and dead_fractions[-1] > 0.1:
             return "reduce_learning_rate"
 
-        # 4. max < 0.1
+
         if max(dead_fractions) < 0.1:
             return "healthy"
 
-        # 5. otherwise
         return "healthy"

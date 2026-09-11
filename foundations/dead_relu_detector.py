@@ -41,11 +41,9 @@ class Solution:
         if any(x > 0.5 for x in dead_fractions):
             return "use_leaky_relu"
 
-        # 2. first layer > 0.3
         if dead_fractions[0] > 0.3:
             return "reinitialize"
 
-        # 3. strictly increases with depth AND last > 0.1
         inc = True
 
         for i in range(len(dead_fractions) - 1):
